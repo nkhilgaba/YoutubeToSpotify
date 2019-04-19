@@ -7,7 +7,7 @@ import spotipy.util as util
 import sys
 
 # Number of titles to get from each channel
-MAX_RESULT = 10
+MAX_RESULT = 20
 
 # Spotify credentials
 SPOTIFY_USERNAME = ''
