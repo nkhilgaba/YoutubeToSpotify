@@ -10,7 +10,7 @@ You need these before running the script:
 Add these to **CLIENT_ID** and **CLIENT_SECRET** in the code.
 After this, click edit settings of the newly created app and add http://localhost/ to Redirect URIs and save. 
 
-* Get the Youtube API key [here](https://developers.google.com/youtube/v3/getting-started) and it to **API_KEY** in the code.
+* Get the Youtube API key [here](https://developers.google.com/youtube/v3/getting-started) and add it to **API_KEY** in the code.
 
 * [Spotipy](https://spotipy.readthedocs.io/en/latest/) : Spotipy is a lightweight Python library for the Spotify Web API. 
 With Spotipy you get full access to all of the music data provided by the Spotify platform.
