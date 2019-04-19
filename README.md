@@ -1,7 +1,7 @@
 # YoutubeToSpotify
 
 A Python script to fetch tracks of music channels on Youtube, find them on Spotify and add them to a playlist.
-The video titles from Youtube are filtered and then searched on Spotify for near perfect results.
+The video titles from Youtube are filtered and then searched on Spotify for near perfect results. A CSV file keeps track of the tracks that are added to the Spotify playlist so the script can be executed when required.
 
 ### Getting Started
 
@@ -57,3 +57,5 @@ Add the part after https://www.youtube.com/channel/ (Here, UCkjnVMHy) to **CHANN
 ```
 {'channelName' : 'channelID'}
 ```
+To change the number of search results for each channel change **MAX_RESULT** in the code. Default is 20.
+
